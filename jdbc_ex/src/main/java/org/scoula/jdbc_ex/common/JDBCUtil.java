@@ -27,6 +27,7 @@ public class JDBCUtil {
     public static Connection getConnection() {
         return conn;
     }
+
     public static void close() {
         try {
             if (conn != null) {
